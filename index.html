@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic Tac Toe Game</title>
+	</head>
+	<link rel="stylesheet" href="xox.css" />
+	<body>
+		<h1>Tic Tac Toe</h1>
+		<div class="gameMode">
+			<button id="online">Computer</button>
+			<button id="offline">Local Multiplayer</button>
+		</div>
+		<div class="score-board hide">
+			<div class="score">
+				<p id="playerx">Player X</p>
+				<p id="user-score">0</p>
+			</div>
+			<div class="score">
+				<p id="playerO">Player O</p>
+				<p id="comp-score">0</p>
+			</div>
+		</div>
+		<div class="msgContainer hide">
+			<p id="msg">Winner</p>
+			<button id="newgame">New Game</button>
+			<button id="back" class="hide">Back</button>
+		</div>
+		<div class="container hide">
+			<div class="game">
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+				<button class="box"></button>
+			</div>
+		</div>
+		<button id="reset" class="hide">Reset Game</button>
+		<button id="goback" class="hide">Go Back</button>
+		<script src="xox.js"></script>
+	</body>
+</html>
